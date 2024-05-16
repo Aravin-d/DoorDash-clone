@@ -1,0 +1,64 @@
+@media only screen and (min-width:768px) and (max-width: 1183px){
+
+    body{
+        height: 1500px;
+    }
+
+    header{
+        height: 650px;
+        max-width: 100%;
+    }
+
+    .login-btn, .open-btn{
+        display: none;
+    }
+
+    .user-options{
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 8px;
+        position: absolute;
+        top: 16px;
+        right: 24px;
+    }
+
+    .user-options button{
+        border: none;
+        border-radius: 20px;
+    }
+
+    .signin-btn{
+        background-color: #eb1700;
+        color: #fff;
+        font-family: 'DD-TT Norms bold';
+        width: 78.03px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: -0.04ch;
+        line-height: 24px;
+    }
+
+    .signup-btn{
+        background-color: #fff;
+        color: #000;
+        font-family: 'DD-TT Norms bold';
+        width: 86.48px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: -0.04ch;
+        line-height: 24px;
+    }
+
+    .dd-section{
+        display: none;
+    }
+
+    .dd-section-main{
+        position: relative;
+        top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+    }
+}
