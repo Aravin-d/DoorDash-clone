@@ -1,34 +1,19 @@
-body{
-    font-variant-ligatures: no-common-ligatures;
-    margin: 0px;
-    padding: 0px;
-}
-
-header{
-    background-image: url(/assets/hero_desktop.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-@media only screen and (max-width:767px){
+@media only screen and (min-width:1181px){
+    body{
+        height: 1500px;
+    }
+    
     header{
-        height: 550px;
         max-width: 100%;
-        padding: 0 8px;
+        height: 650px;
+        width: 100%;
     }
 
-    .header-container{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .login-btn, .open-btn{
+        display: none;
     }
 
     .user-options{
-        width: 100%;
         display: flex;
         justify-content: flex-end;
         column-gap: 8px;
@@ -37,33 +22,52 @@ header{
         right: 24px;
     }
 
-    .signin-btn, .signup-btn{
-        display: none;
-    }
-
     .user-options button{
         border: none;
         border-radius: 20px;
     }
 
-    .login-btn{
-        background-color: #fff;
-        color: #000;
-        font-family: 'DD-TT Norms bold';
-        width: 64.14px;
-        height: 32px;
-        font-size: 16px;
-        letter-spacing: -0.04ch;
-    }
-
-    .open-btn{
+    .signin-btn{
         background-color: #eb1700;
         color: #fff;
         font-family: 'DD-TT Norms bold';
-        width: 97.25px;
-        height: 32px;
-        font-size: 16px;
+        width: 78.03px;
+        height: 40px;
+        font-size: 18px;
         letter-spacing: -0.04ch;
+        line-height: 24px;
+    }
+
+    .signup-btn{
+        background-color: #fff;
+        color: black;
+        font-family: 'DD-TT Norms bold';
+        width: 86.48px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: -0.04ch;
+        line-height: 24px;
+    }
+
+    .dd-section{
+        display: none;
+    }
+
+    .dd-section-main{
+        position: relative;
+        top: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+    }
+
+    .header-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .user-content{
@@ -75,32 +79,20 @@ header{
         justify-content: center;
     }
 
-    .dd-section-main{
-        display: none;
-    }
-
-    .dd-section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        column-gap: 8px;
-    }
-
     .dd-contents{
-        width: 350px;
-        height: 176px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 33px;
     }
 
     .dd-contents h1{
         color: white;
         text-align: center;
-        font-size: 22px;
+        font-size: 40px;
         font-family: 'DD-TT Norms bold';
         padding: 0;
-        margin-top: 20px;
+        margin-top: 0;
         line-height: 28px;
     }
 
@@ -111,9 +103,8 @@ header{
     }
 
     .dd-input .input-box{
-        width: 258px;
-        height: 48px;
-        margin-top: 10px;
+        width: 390px;
+        height: 56px;
         border: none;
         border-radius: 50px;
         background-color: #fff;
@@ -121,31 +112,39 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 14px;
+        padding: 0 10px;
     }
 
     .input-box .input-sec-1{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        column-gap: 12px;
+        justify-content: flex-start;
+        column-gap: 10px;
+    }
+
+    .input-sec-2 > img{
+        display: none;
+    }
+
+    .input-sec-2{
+        display: flex;
+        justify-content: flex-end;
     }
 
     .input-sec-2 button{
-        display: none;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        background-color: #eb1700;
     }
 
-    .location-img{
+    .search-img{
         display: none;
     }
-
-    /* .input-box span{
-        margin-right: 26px;
-        margin-left: 2px;
-    } */
 
     .log-in-icon{
-        width: 81.06px;
+        width: 203.05px;
         height: 32px;
         background-color: #fff;
         display: flex;
@@ -157,13 +156,17 @@ header{
         font-family: 'DD-TT Norms bold';
         font-size: 14px;
         margin-top: 15px;
-        padding: 8px 0;
     }
 
-    .sign-in-tab, .sign-in-tab-1{
+    .sign-in-tab-1{
+        display: none;
+    }
+
+    .log-in-mob{
         display: none;
     }
 }
+
 
 @font-face{
     font-family: 'DD-TT Norms';

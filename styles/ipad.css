@@ -1,9 +1,4 @@
-@media only screen and (min-width:768px) and (max-width: 1183px){
-
-    body{
-        height: 1500px;
-    }
-
+@media only screen and (min-width:768px) and (max-width: 959px){
     header{
         height: 650px;
         max-width: 100%;
@@ -123,6 +118,10 @@
         column-gap: 10px;
     }
 
+    .input-sec-2 button{
+        display: none;
+    }
+
     .search-img{
         display: none;
     }
@@ -140,6 +139,159 @@
         font-family: 'DD-TT Norms bold';
         font-size: 14px;
         margin-top: 15px;
+    }
+
+    .log-in-mob, .sign-in-tab{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:960px) and (max-width:1180px){
+    header{
+        height: 650px;
+        max-width: 100%;
+    }
+
+    .login-btn, .open-btn{
+        display: none;
+    }
+
+    .user-options{
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 8px;
+        position: absolute;
+        top: 16px;
+        right: 24px;
+    }
+
+    .user-options button{
+        border: none;
+        border-radius: 20px;
+    }
+
+    .signin-btn{
+        background-color: #eb1700;
+        color: #fff;
+        font-family: 'DD-TT Norms bold';
+        width: 78.03px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: -0.04ch;
+        line-height: 24px;
+    }
+
+    .signup-btn{
+        background-color: #fff;
+        color: #000;
+        font-family: 'DD-TT Norms bold';
+        width: 86.48px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: -0.04ch;
+        line-height: 24px;
+    }
+
+    .dd-section{
+        display: none;
+    }
+
+    .dd-section-main{
+        position: relative;
+        top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+    }
+
+    .header-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dd-contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 33px;
+    }
+
+    .dd-contents h1{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'DD-TT Norms bold';
+        padding: 0;
+        margin-top: 0;
+        line-height: 28px;
+    }
+
+    .dd-contents .dd-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dd-input .input-box{
+        width: 368px;
+        height: 50px;
+        border: none;
+        border-radius: 50px;
+        background-color: #fff;
+        font-family: 'DD-TT Norms medium';
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+
+    .input-box .input-sec-1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 10px;
+    }
+
+    .input-sec-2 button{
+        display: none;
+    }
+
+    .search-img{
+        display: none;
+    }
+
+    .log-in-icon{
+        width: 203.05px;
+        height: 32px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        justify-content: center;
+        border: none;
+        border-radius: 50px;
+        font-family: 'DD-TT Norms bold';
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .sign-in-tab-1{
+        display: none;
     }
 
     .log-in-mob{
