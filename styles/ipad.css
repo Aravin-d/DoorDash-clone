@@ -61,4 +61,103 @@
         justify-content: center;
         column-gap: 8px;
     }
+
+    .header-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dd-contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 33px;
+    }
+
+    .dd-contents h1{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'DD-TT Norms bold';
+        padding: 0;
+        margin-top: 0;
+        line-height: 28px;
+    }
+
+    .dd-contents .dd-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dd-input .input-box{
+        width: 368px;
+        height: 50px;
+        border: none;
+        border-radius: 50px;
+        background-color: #fff;
+        font-family: 'DD-TT Norms medium';
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+
+    .input-box .input-sec-1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 10px;
+    }
+
+    .search-img{
+        display: none;
+    }
+
+    .log-in-icon{
+        width: 88.73px;
+        height: 32px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        justify-content: center;
+        border: none;
+        border-radius: 50px;
+        font-family: 'DD-TT Norms bold';
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .log-in-mob{
+        display: none;
+    }
+}
+
+@font-face{
+    font-family: 'DD-TT Norms';
+    src: url(/assets/fonts/Norms-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'DD-TT Norms bold';
+    src: url(/assets/fonts/Norms-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'DD-TT Norms medium';
+    src: url(/assets/fonts/Norms-Medium.ttf);
 }

@@ -111,7 +111,7 @@ header{
     }
 
     .dd-input .input-box{
-        width: 286px;
+        width: 266px;
         height: 48px;
         margin-top: 10px;
         border: none;
@@ -120,13 +120,24 @@ header{
         font-family: 'DD-TT Norms medium';
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding: 0 10px;
     }
 
-    .input-box span{
+    .input-box .input-sec-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .location-img{
+        display: none;
+    }
+
+    /* .input-box span{
         margin-right: 26px;
         margin-left: 2px;
-    }
+    } */
 
     .log-in-icon{
         width: 81.06px;
@@ -142,6 +153,10 @@ header{
         font-size: 14px;
         margin-top: 15px;
         padding: 8px 0;
+    }
+
+    .sign-in-tab{
+        display: none;
     }
 }
 
