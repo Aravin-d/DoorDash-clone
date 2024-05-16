@@ -1,0 +1,38 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: no-common-ligatures;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(/assets/hero_desktop.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width:760px){
+    header{
+        height: 550px;
+        max-width: 100%;
+    }
+}
+
+@font-face {
+    font-family: 'DD-TTNorms';
+    src: url('fonts/DDTTNorms-Regular.woff2') format('woff2'),
+         url('fonts/DDTTNorms-Regular.woff') format('woff'),
+         url('fonts/DDTTNorms-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DD-TTNorms';
+    src: url('fonts/DDTTNorms-Bold.woff2') format('woff2'),
+         url('fonts/DDTTNorms-Bold.woff') format('woff'),
+         url('fonts/DDTTNorms-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
