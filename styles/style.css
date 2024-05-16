@@ -9,6 +9,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 @media only screen and (max-width:760px){
@@ -24,6 +25,41 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .user-options{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        column-gap: 8px;
+        position: absolute;
+        top: 16px;
+        right: 24px;
+    }
+
+    .user-options button{
+        border: none;
+        border-radius: 20px;
+    }
+
+    .login-btn{
+        background-color: #fff;
+        color: #000;
+        font-family: 'DD-TT Norms bold';
+        width: 64.14px;
+        height: 32px;
+        font-size: 16px;
+        letter-spacing: -0.04ch;
+    }
+
+    .open-btn{
+        background-color: #eb1700;
+        color: #fff;
+        font-family: 'DD-TT Norms bold';
+        width: 97.25px;
+        height: 32px;
+        font-size: 16px;
+        letter-spacing: -0.04ch;
     }
 
     .user-content{
@@ -71,13 +107,10 @@ header{
         border: none;
         border-radius: 50px;
         background-color: #fff;
-        font-family: 'DD-TT Norms';
+        font-family: 'DD-TT Norms medium';
         display: flex;
         align-items: center;
-    }
-
-    .dd-input .input-box span{
-        margin-left: 45px;
+        justify-content: center;
     }
 
 }
