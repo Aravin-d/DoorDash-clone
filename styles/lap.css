@@ -162,9 +162,10 @@
         display: none;
     }
 
-    .log-in-mob{
+    .log-in-mob, .sec-2{
         display: none;
     }
+
 }
 
 

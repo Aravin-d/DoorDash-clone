@@ -1,181 +1,260 @@
-body{
-    font-variant-ligatures: no-common-ligatures;
-    margin: 0px;
-    padding: 0px;
+body {
+  font-variant-ligatures: no-common-ligatures;
+  margin: 0px;
+  padding: 0px;
 }
 
-header{
-    background-image: url(/assets/hero_desktop.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
+header {
+  background-image: url(/assets/hero_desktop.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-@media only screen and (max-width:767px){
-    header{
-        height: 550px;
-        max-width: 100%;
-        padding: 0 8px;
-    }
+@media only screen and (max-width: 767px) {
+  header {
+    height: 550px;
+    max-width: 100%;
+    padding: 0 8px;
+  }
 
-    .header-container{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .header-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .user-options{
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        column-gap: 8px;
-        position: absolute;
-        top: 16px;
-        right: 24px;
-    }
+  .user-options {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    position: absolute;
+    top: 16px;
+    right: 24px;
+  }
 
-    .signin-btn, .signup-btn{
-        display: none;
-    }
+  .signin-btn,
+  .signup-btn {
+    display: none;
+  }
 
-    .user-options button{
-        border: none;
-        border-radius: 20px;
-    }
+  .user-options button {
+    border: none;
+    border-radius: 20px;
+  }
 
-    .login-btn{
-        background-color: #fff;
-        color: #000;
-        font-family: 'DD-TT Norms bold';
-        width: 64.14px;
-        height: 32px;
-        font-size: 16px;
-        letter-spacing: -0.04ch;
-    }
+  .login-btn {
+    background-color: #fff;
+    color: #000;
+    font-family: "DD-TT Norms bold";
+    width: 64.14px;
+    height: 32px;
+    font-size: 16px;
+    letter-spacing: -0.04ch;
+  }
 
-    .open-btn{
-        background-color: #eb1700;
-        color: #fff;
-        font-family: 'DD-TT Norms bold';
-        width: 97.25px;
-        height: 32px;
-        font-size: 16px;
-        letter-spacing: -0.04ch;
-    }
+  .open-btn {
+    background-color: #eb1700;
+    color: #fff;
+    font-family: "DD-TT Norms bold";
+    width: 97.25px;
+    height: 32px;
+    font-size: 16px;
+    letter-spacing: -0.04ch;
+  }
 
-    .user-content{
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .user-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .dd-section-main{
-        display: none;
-    }
+  .dd-section-main {
+    display: none;
+  }
 
-    .dd-section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        column-gap: 8px;
-    }
+  .dd-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+  }
 
-    .dd-contents{
-        width: 350px;
-        height: 176px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .dd-contents {
+    width: 350px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .dd-contents h1{
-        color: white;
-        text-align: center;
-        font-size: 22px;
-        font-family: 'DD-TT Norms bold';
-        padding: 0;
-        margin-top: 20px;
-        line-height: 28px;
-    }
+  .dd-contents h1 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: "DD-TT Norms bold";
+    padding: 0;
+    margin-top: 20px;
+    line-height: 28px;
+  }
 
-    .dd-contents .dd-input{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .dd-contents .dd-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .dd-input .input-box{
-        width: 258px;
-        height: 48px;
-        margin-top: 10px;
-        border: none;
-        border-radius: 50px;
-        background-color: #fff;
-        font-family: 'DD-TT Norms medium';
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 14px;
-    }
+  .dd-input .input-box {
+    width: 258px;
+    height: 48px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    font-family: "DD-TT Norms medium";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+  }
 
-    .input-box .input-sec-1{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        column-gap: 12px;
-    }
+  .input-box .input-sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 12px;
+  }
 
-    .input-sec-2 button{
-        display: none;
-    }
+  .input-sec-2 button {
+    display: none;
+  }
 
-    .location-img{
-        display: none;
-    }
+  .location-img {
+    display: none;
+  }
 
-    /* .input-box span{
+  /* .input-box span{
         margin-right: 26px;
         margin-left: 2px;
     } */
 
-    .log-in-icon{
-        width: 81.06px;
-        height: 32px;
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        column-gap: 5px;
-        justify-content: center;
-        border: none;
-        border-radius: 50px;
-        font-family: 'DD-TT Norms bold';
-        font-size: 14px;
-        margin-top: 15px;
-        padding: 8px 0;
-    }
+  .log-in-icon {
+    width: 81.06px;
+    height: 32px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    font-family: "DD-TT Norms bold";
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 8px 0;
+  }
 
-    .sign-in-tab, .sign-in-tab-1{
-        display: none;
-    }
+  .sign-in-tab,
+  .sign-in-tab-1 {
+    display: none;
+  }
+
+  .sec-2 {
+    display: flex;
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 360px;
+    height: 148px;
+    column-gap: 8px;
+    max-width: 400px;
+    box-shadow: 0px 0px 3px #ccc;
+  }
+
+  .dd-logo {
+    background: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #f0eeee;
+    border-radius: 14px;
+    margin-top: -1px;
+  }
+
+  .playstore {
+    line-height: 22px;
+  }
+
+  .playstore img {
+    margin-bottom: 2px;
+  }
+
+  .playstore h2 {
+    font-size: 18px;
+    font-family: "DD-TT Norms bold";
+    margin-bottom: 4px;
+    margin-top: -3px;
+    letter-spacing: -0.04ch;
+  }
+
+  .playstore h3 {
+    font-family: "DD-TT Norms medium";
+    font-size: 14px;
+    font-weight: 500;
+    color: #767676;
+  }
+
+  .get-app {
+    display: flex;
+    border: 1px solid #eb1700;
+    border-radius: 24px;
+    width: 124.23px;
+    background: #eb1700;
+    height: 32px;
+    margin-top: 8px;
+    column-gap: 4px;
+  }
+
+  .get-app p {
+    font-family: "DD-TT Norms bold";
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .get-app img {
+    display: flex;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    transform: translateY(7px);
+  }
 }
 
-@font-face{
-    font-family: 'DD-TT Norms';
-    src: url(/assets/fonts/Norms-Regular.ttf);
+@font-face {
+  font-family: "DD-TT Norms";
+  src: url(/assets/fonts/Norms-Regular.ttf);
 }
 
-@font-face{
-    font-family: 'DD-TT Norms bold';
-    src: url(/assets/fonts/Norms-Bold.ttf);
+@font-face {
+  font-family: "DD-TT Norms bold";
+  src: url(/assets/fonts/Norms-Bold.ttf);
 }
 
-@font-face{
-    font-family: 'DD-TT Norms medium';
-    src: url(/assets/fonts/Norms-Medium.ttf);
+@font-face {
+  font-family: "DD-TT Norms medium";
+  src: url(/assets/fonts/Norms-Medium.ttf);
 }
