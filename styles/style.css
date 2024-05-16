@@ -12,7 +12,7 @@ header{
     position: relative;
 }
 
-@media only screen and (max-width:760px){
+@media only screen and (max-width:767px){
     header{
         height: 550px;
         max-width: 100%;
@@ -82,6 +82,7 @@ header{
         height: 176px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .dd-contents h1{
@@ -110,9 +111,29 @@ header{
         font-family: 'DD-TT Norms medium';
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
+    .input-box span{
+        margin-right: 26px;
+        margin-left: 2px;
+    }
+
+    .log-in-icon{
+        width: 81.06px;
+        height: 32px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        justify-content: center;
+        border: none;
+        border-radius: 50px;
+        font-family: 'DD-TT Norms bold';
+        font-size: 14px;
+        margin-top: 15px;
+        padding: 8px 0;
+    }
 }
 
 @font-face{
