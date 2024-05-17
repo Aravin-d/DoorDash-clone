@@ -213,7 +213,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        column-gap: 8px;
+        column-gap: 11px;
+    }
+
+    .dd-section-main .main-img-1{
+        width: 42px;
+        height: 24px;
+    }
+
+    .dd-section-main .main-img-2{
+        width: 155.06px;
+        height: 18px;
     }
 
     .header-container{
@@ -237,7 +247,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 33px;
+        padding-top: 30px;
     }
 
     .dd-contents h1{
@@ -257,16 +267,18 @@
     }
 
     .dd-input .input-box{
-        width: 368px;
+        width: 378px;
         height: 50px;
-        border: none;
+        border: 2px solid cornflowerblue;
         border-radius: 50px;
         background-color: #fff;
         font-family: 'DD-TT Norms medium';
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 20px;
+        padding: 0 20px 0 8px;
+        margin-bottom: 16px;
+        margin-top: 4px;
     }
 
 
@@ -274,7 +286,12 @@
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        column-gap: 10px;
+        column-gap: 13px;
+    }
+
+    .input-sec-2{
+        display: flex;
+        justify-content: flex-end;
     }
 
     .input-sec-2 button{
@@ -297,7 +314,7 @@
         border-radius: 50px;
         font-family: 'DD-TT Norms bold';
         font-size: 14px;
-        margin-top: 15px;
+        /* margin-top: 15px; */
     }
 
     .sign-in-tab-1{
@@ -305,6 +322,10 @@
     }
 
     .log-in-mob, .sec-2{
+        display: none;
+    }
+
+    .mob-download{
         display: none;
     }
 }

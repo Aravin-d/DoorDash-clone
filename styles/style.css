@@ -165,82 +165,78 @@ header {
   .sign-in-tab-1 {
     display: none;
   }
-
-  .sec-2 {
+  
+  .mob-download{
     display: flex;
-    background: #f7f7f7;
-    border: 1px solid #f7f7f7;
-    border-radius: 15px;
-    box-shadow: 0px 0px 3px #ccc;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+  }
+
+  .playstore-container{
+    width: 320px;
+    height: 108px;
+    background-color: lightblue;
     padding: 20px;
-    width: 360px;
-    height: 148px;
+    border-radius: 16px;
+    display: flex;
     column-gap: 8px;
-    max-width: 400px;
-    box-shadow: 0px 0px 3px #ccc;
   }
 
-  .dd-logo {
-    background: white;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #f0eeee;
-    border-radius: 14px;
-    margin-top: -1px;
+  .logo-img-container{
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    border: 1px solid rgb(231, 231, 231);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .playstore {
-    line-height: 22px;
+  .play-content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .playstore img {
-    margin-bottom: 2px;
+  .play-content-container img{
+    width: 75px;
+    height: 13px;
   }
 
-  .playstore h2 {
+  .play-content-container .content-span-1{
+    font-family: 'DD-TT Norms bold';
     font-size: 18px;
-    font-family: "DD-TT Norms bold";
-    margin-bottom: 4px;
-    margin-top: -3px;
+    color: #191919;
     letter-spacing: -0.04ch;
   }
 
-  .playstore h3 {
-    font-family: "DD-TT Norms medium";
+  .play-content-container .content-span-2{
+    font-family: 'DD-TT Norms medium';
     font-size: 14px;
-    font-weight: 500;
     color: #767676;
   }
 
-  .get-app {
-    display: flex;
-    border: 1px solid #eb1700;
-    border-radius: 24px;
+  .play-content-container button{
     width: 124.23px;
-    background: #eb1700;
     height: 32px;
-    margin-top: 8px;
-    column-gap: 4px;
-  }
-
-  .get-app p {
-    font-family: "DD-TT Norms bold";
+    font-family: 'DD-TT Norms bold';
     font-size: 14px;
+    color: #FFF;
+    background-color: #eb1700;
+    border-radius: 24px;
+    border: none;
     display: flex;
     align-items: center;
-    color: white;
-    margin-left: 10px;
+    justify-content: space-between;
+    padding: 0 11px;
   }
 
-  .get-app img {
-    display: flex;
-    align-items: center;
+  .play-content-container button img{
     width: 16px;
     height: 16px;
-    transform: translateY(7px);
   }
 }
 
