@@ -311,6 +311,75 @@
         background-repeat: no-repeat;
       }
 
+      .groceries{
+        width: 100%;
+        height: 350px;
+        background-image: url(https://door-dash-clone.vercel.app/images/grocery.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      .groceries .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(30, 30, 30, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .groceries-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+    
+      .groceries-container h2{
+        width: 400px;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'DD-TT Norms bold';
+        margin: 20px 0 0;
+        font-weight: 700;
+        /* line-height: 28px; */
+        letter-spacing: -0.01px;
+      }
+    
+      .groceries-sub-span{
+        font-size: 18px;
+        color: #fff;
+        font-family: 'DD-TT Norms bold';
+        margin: 10px 0 0;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.01px;
+      }
+    
+      .groceries-content{
+        color: #fff;
+        font-family: 'DD-TT Norms medium';
+        font-size: 14px;
+        margin: 10px 0 0;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.01px;
+      }
+    
+      .groceries-container button{
+        background-color: #eb1700;
+        color: #FFF;
+        font-family: 'DD-TT Norms bold';
+        border: none;
+        margin: 20px 0 0;
+        width: 123.89px;
+        height: 32px;
+        text-align: center;
+        border-radius: 20px;
+      }
+
 }
 
 @media only screen and (min-width:960px) and (max-width:1180px){
@@ -639,6 +708,75 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+      }
+
+      .groceries{
+        width: 100%;
+        height: 600px;
+        background-image: url(https://door-dash-clone.vercel.app/images/grocery.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+      .groceries .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(30, 30, 30, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .groceries-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+    
+      .groceries-container h2{
+        width: 400px;
+        color: #fff;
+        font-size: 40px;
+        font-family: 'DD-TT Norms bold';
+        margin: 20px 0 0;
+        font-weight: 700;
+        /* line-height: 28px; */
+        letter-spacing: -0.01px;
+      }
+    
+      .groceries-sub-span{
+        font-size: 18px;
+        color: #fff;
+        font-family: 'DD-TT Norms bold';
+        margin: 10px 0 0;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.01px;
+      }
+    
+      .groceries-content{
+        color: #fff;
+        font-family: 'DD-TT Norms medium';
+        font-size: 14px;
+        margin: 10px 0 0;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.01px;
+      }
+    
+      .groceries-container button{
+        background-color: #eb1700;
+        color: #FFF;
+        font-family: 'DD-TT Norms bold';
+        border: none;
+        margin: 20px 0 0;
+        width: 123.89px;
+        height: 32px;
+        text-align: center;
+        border-radius: 20px;
       }
 }
 
