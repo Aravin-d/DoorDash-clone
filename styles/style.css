@@ -507,6 +507,76 @@ header {
     border: none;
     border-radius: 20px;
   }
+
+  .helping{
+    width: 100%;
+    height: 500px;
+    background-color: #fef1ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .helping-heading{
+    width: 300px;
+    height: 56px;
+    margin: 40px 20px 20px;
+    text-align: center;
+  }
+
+  .helping-heading span{
+    font-size: 24px;
+    font-family: 'DD-TT Norms bold';
+  }
+
+  .packages{
+    width: 367.69px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .package-img{
+    width: 100%;
+    height: 180px;
+  }
+
+  .package-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .package-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .package-content h2{
+    font-size: 24px;
+    font-family: 'DD-TT Norms bold';
+    margin: 20px 0 0;
+  }
+
+  .package-content span{
+    font-size: 14px;
+    font-family: 'DD-TT Norms medium';
+    margin: 10px 0 0;
+  }
+
+  .package-content button{
+    width: 150.50px;
+    height: 32px;
+    border: none;
+    background-color: #eb1700;
+    color: #FFF;
+    font-family: 'DD-TT Norms bold';
+    border-radius: 20px;
+    margin: 20px 0 0;
+  }
 }
 
 @font-face {

@@ -379,7 +379,9 @@
         text-align: center;
         border-radius: 20px;
       }
-
+      .convinience-mob{
+        display: none;
+      }
 }
 
 @media only screen and (min-width:960px) and (max-width:1180px){
@@ -777,6 +779,10 @@
         height: 32px;
         text-align: center;
         border-radius: 20px;
+      }
+
+      .convinience-mob{
+        display: none;
       }
 }
 
