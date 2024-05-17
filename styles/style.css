@@ -175,21 +175,23 @@ header {
   }
 
   .playstore-container{
-    width: 320px;
-    height: 108px;
-    background-color: lightblue;
-    padding: 20px;
+    width: 314px;
+    height: 102px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(231, 231, 231);
+    padding: 22px;
     border-radius: 16px;
     display: flex;
-    column-gap: 8px;
+    column-gap: 10px;
   }
 
   .logo-img-container{
-    width: 58px;
-    height: 58px;
-    border-radius: 16px;
-    border: 1px solid rgb(231, 231, 231);
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
     background-color: #fff;
+    border: 1px solid rgb(231, 231, 231);
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,7 +200,7 @@ header {
   .play-content-container{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
   }
 
   .play-content-container img{
@@ -211,6 +213,7 @@ header {
     font-size: 18px;
     color: #191919;
     letter-spacing: -0.04ch;
+    margin: 0;
   }
 
   .play-content-container .content-span-2{
@@ -232,11 +235,75 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 11px;
+    position: relative;
+    top: 3px;
   }
 
   .play-content-container button img{
     width: 16px;
     height: 16px;
+  }
+
+  .dd-options{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+  }
+
+  .dd-option-1{
+    /* width: 320px; */
+    height: auto;
+    /* background-color: lightblue; */
+    display: flex;
+    column-gap: 30px;
+  }
+
+  .dd-option-1-img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .option-1-img img{
+    width: 88px;
+    height: 88px;
+  }
+
+  .option-1-container{
+    width: 244px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .opt-span-1{
+    font-size: 18px;
+    font-family: 'DD-TT Norms bold';
+  }
+
+  .opt-span-2{
+    font-size: 14px;
+    font-family: 'DD-TT norms medium';
+    color: #191919;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+  }
+
+  .option-1-container button{
+    background-color: #fff;
+    font-family: 'DD-TT Norms bold';
+    font-size: 14px;
+    color: #eb1700;
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding: 0;
   }
 }
 
