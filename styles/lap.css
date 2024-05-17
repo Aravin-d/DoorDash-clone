@@ -55,11 +55,21 @@
 
     .dd-section-main{
         position: relative;
-        top: 26px;
+        top: 24px;
         display: flex;
         align-items: center;
         justify-content: center;
-        column-gap: 8px;
+        column-gap: 11px;
+    }
+
+    .dd-section-main .main-img-1{
+        width: 42px;
+        height: 24px;
+    }
+
+    .dd-section-main .main-img-2{
+        width: 155.06px;
+        height: 18px;
     }
 
     .header-container{
@@ -83,7 +93,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 33px;
+        padding-top: 30px;
     }
 
     .dd-contents h1{
@@ -103,7 +113,7 @@
     }
 
     .dd-input .input-box{
-        width: 390px;
+        width: 378px;
         height: 56px;
         border: none;
         border-radius: 50px;
@@ -112,14 +122,16 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 10px;
+        padding: 0 10px 0 20px;
+        margin-bottom: 16px;
+        margin-top: 4px;
     }
 
     .input-box .input-sec-1{
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        column-gap: 10px;
+        column-gap: 13px;
     }
 
     .input-sec-2 > img{
@@ -155,7 +167,7 @@
         border-radius: 50px;
         font-family: 'DD-TT Norms bold';
         font-size: 14px;
-        margin-top: 15px;
+        /* margin-top: 10px; */
     }
 
     .sign-in-tab-1{
