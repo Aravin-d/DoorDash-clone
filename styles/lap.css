@@ -181,6 +181,76 @@
     .mob-download{
         display: none;
     }
+
+    .dd-options{
+        margin: 60px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        column-gap: 150px;
+      }
+    
+      .dd-option{
+        /* width: 320px; */
+        height: auto;
+        /* background-color: lightblue; */
+        display: flex;
+        flex-direction: column;
+        /* column-gap: 60px; */
+      }
+    
+      .option-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .option-img img{
+        width: 154px;
+        height: 154px;
+      }
+    
+      .option-container{
+        width: 244px;
+        /* height: 114px; */
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+      }
+
+      .option-container-text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    
+      .opt-span-1{
+        font-size: 32px;
+        font-family: 'DD-TT Norms bold';
+      }
+    
+      .opt-span-2{
+        font-size: 18px;
+        font-family: 'DD-TT norms medium';
+        color: #191919;
+        line-height: 24px;
+        letter-spacing: -0.01px;
+      }
+    
+      .option-container button{
+        background-color: #fff;
+        font-family: 'DD-TT Norms bold';
+        font-size: 18px;
+        color: #eb1700;
+        border: none;
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        padding: 0;
+      }
 }
 
 
