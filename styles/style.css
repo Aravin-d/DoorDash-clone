@@ -310,7 +310,7 @@ header {
     background-color: #fef1ee;
     margin-top: 230px;
     gap: 40px;
-    height: 665px;
+    height: 690px;
   }
 
   .crave{
@@ -336,6 +336,7 @@ header {
   }
 
   .crave-content h2{
+    width: 330px;
     margin: 20px 0 0;
     font-size: 24px;
     font-family: 'DD-TT Norms bold';
@@ -455,6 +456,57 @@ header {
     border-radius: 20px;
   }
 
+  .convinience-mob{
+    padding: 20px;
+  }
+
+  .convinience-mob-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .convinience-mob-img{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .convinience-mob-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .convinience-mob-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .convinience-mob-content h2{
+    font-size: 24px;
+    font-family: 'DD-TT Norms bold';
+    margin: 20px 0 0;
+  }
+
+  .convinience-mob-content span{
+    font-size: 14px;
+    font-family: 'DD-TT Norms medium';
+    margin: 10px 0 0;
+  }
+
+  .convinience-mob-content button{
+    margin: 20px 0 0;
+    width: 90.78px;
+    height: 32px;
+    text-align: center;
+    background-color: #eb1700;
+    color: #fff;
+    font-family: 'DD-TT Norms bold';
+    border: none;
+    border-radius: 20px;
+  }
 }
 
 @font-face {
