@@ -247,6 +247,100 @@
         column-gap: 8px;
         padding: 0;
       }
+
+      .foods{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fef1ee;
+        margin-top: 545px;
+        gap: 40px;
+        height: 630px;
+      }
+    
+      .crave{
+        width: 1155.02px;
+        height: 504px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -445px;
+      }
+    
+      .crave-img{
+        width: 695.02px;
+        height: 500px;
+        background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+      .crave-content{
+        width: 385.61px;
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      .crave-content h2{
+        margin: 20px 0 0;
+        font-size: 40px;
+        font-family: 'DD-TT Norms bold';
+        line-height: 40px;
+        letter-spacing: -0.01px;
+      }
+    
+      .crave-content .sub-span{
+        font-size: 20px;
+        font-family: 'DD-TT Norms bold';
+        margin: 20px 0 0;
+        line-height: 24px;
+        /* letter-spacing: -0.01px; */
+      }
+    
+      .crave-content .sub-content{
+        font-size: 16px;
+        font-family: 'DD-TT Norms medium';
+        margin-top: 10px;
+        line-height: 22px;
+        /* letter-spacing: -0.01px; */
+      }
+    
+      .crave-content button{
+        width: 146px;
+        height: 40px;
+        background-color: #eb1700;
+        margin: 20px 0 0;
+        font-family: 'DD-TT Norms bold';
+        font-size: 16px;
+        color: #FFF;
+        border: none;
+        text-align: center;
+        padding: 8px;
+        border-radius: 20px;
+      }
+    
+      .dashpass{
+        width: 1184px;
+        height: 504px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .dashpass-img{
+        width: 724px;
+        height: 500px;
+        background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
 }
 
 
