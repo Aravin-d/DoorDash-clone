@@ -115,7 +115,7 @@ header {
     width: 258px;
     height: 48px;
     margin-top: 10px;
-    border: none;
+    border: 1px solid cornflowerblue;
     border-radius: 50px;
     background-color: #fff;
     font-family: "DD-TT Norms medium";
