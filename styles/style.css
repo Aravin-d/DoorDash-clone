@@ -140,11 +140,6 @@ header {
     display: none;
   }
 
-  /* .input-box span{
-        margin-right: 26px;
-        margin-left: 2px;
-    } */
-
   .log-in-icon {
     width: 81.06px;
     height: 32px;
@@ -305,6 +300,90 @@ header {
     align-items: center;
     column-gap: 8px;
     padding: 0;
+  }
+
+  .foods{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fef1ee;
+    margin-top: 230px;
+    gap: 40px;
+  }
+
+  .crave{
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -130px;
+  }
+
+  .crave-img{
+    width: 372px;
+    height: 180px;
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .crave-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .crave-content h2{
+    margin: 20px 0 0;
+    font-size: 24px;
+    font-family: 'DD-TT Norms bold';
+    line-height: 28px;
+    letter-spacing: -0.01px;
+  }
+
+  .crave-content .sub-span{
+    font-size: 18px;
+    font-family: 'DD-TT Norms bold';
+    margin: 10px 0 0;
+    line-height: 22px;
+    letter-spacing: -0.01px;
+  }
+
+  .crave-content .sub-content{
+    font-size: 14px;
+    font-family: 'DD-TT Norms';
+    margin-top: 10px;
+    line-height: 20px;
+    letter-spacing: -0.01px;
+  }
+
+  .crave-content button{
+    /* width: 130.73px;
+    height: 32; */
+    background-color: #eb1700;
+    margin: 20px 0 0;
+    font-family: 'DD-TT Norms bold';
+    color: #FFF;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+  }
+
+  .dashpass{
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashpass-img{
+    width: 372px;
+    height: 180px;
+    background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
