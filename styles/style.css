@@ -251,9 +251,10 @@ header {
     justify-content: center;
     align-items: center;
     max-width: 768px;
+    gap: 24px;
   }
 
-  .dd-option-1{
+  .dd-option{
     /* width: 320px; */
     height: auto;
     /* background-color: lightblue; */
@@ -261,18 +262,18 @@ header {
     column-gap: 30px;
   }
 
-  .dd-option-1-img{
+  .dd-option-img{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
   }
 
-  .option-1-img img{
+  .option-img img{
     width: 88px;
     height: 88px;
   }
 
-  .option-1-container{
+  .option-container{
     width: 244px;
     height: 114px;
     display: flex;
@@ -294,7 +295,7 @@ header {
     letter-spacing: -0.01px;
   }
 
-  .option-1-container button{
+  .option-container button{
     background-color: #fff;
     font-family: 'DD-TT Norms bold';
     font-size: 14px;
